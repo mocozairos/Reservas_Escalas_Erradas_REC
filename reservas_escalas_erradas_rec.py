@@ -1,3 +1,9 @@
+import streamlit as st
+import mysql.connector
+import decimal
+import pandas as pd
+from datetime import datetime, date
+
 def gerar_df_phoenix(vw_name, base_luck):
     
     data_hoje = datetime.now()
